@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantPay.Api", "InstantPay.Api\InstantPay.Api.csproj", "{DF9C31EC-0DE9-4C48-BF6D-DC375C135564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantPay.Infrastructure", "InstantPay.Infrastructure\InstantPay.Infrastructure.csproj", "{2AF2FF52-A63A-4FC6-9732-305AAA6CD0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantPay.Domain", "InstantPay.Domain\InstantPay.Domain.csproj", "{FFE174BF-87C8-4EEB-974E-EE8A221070E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantPay.Application", "InstantPay.Application\InstantPay.Application.csproj", "{215E37FD-98B5-466B-A19D-76AEDD89B8F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantPay.Test", "InstantPay.Test\InstantPay.Test.csproj", "{7133730F-677C-4A7D-B81D-19623E2A2D13}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF9C31EC-0DE9-4C48-BF6D-DC375C135564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9C31EC-0DE9-4C48-BF6D-DC375C135564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9C31EC-0DE9-4C48-BF6D-DC375C135564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9C31EC-0DE9-4C48-BF6D-DC375C135564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF2FF52-A63A-4FC6-9732-305AAA6CD0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF2FF52-A63A-4FC6-9732-305AAA6CD0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF2FF52-A63A-4FC6-9732-305AAA6CD0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF2FF52-A63A-4FC6-9732-305AAA6CD0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE174BF-87C8-4EEB-974E-EE8A221070E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE174BF-87C8-4EEB-974E-EE8A221070E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE174BF-87C8-4EEB-974E-EE8A221070E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE174BF-87C8-4EEB-974E-EE8A221070E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215E37FD-98B5-466B-A19D-76AEDD89B8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215E37FD-98B5-466B-A19D-76AEDD89B8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215E37FD-98B5-466B-A19D-76AEDD89B8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215E37FD-98B5-466B-A19D-76AEDD89B8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7133730F-677C-4A7D-B81D-19623E2A2D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7133730F-677C-4A7D-B81D-19623E2A2D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7133730F-677C-4A7D-B81D-19623E2A2D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7133730F-677C-4A7D-B81D-19623E2A2D13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
