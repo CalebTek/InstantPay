@@ -12,7 +12,9 @@ InstantPay is a banking system simulation API project built using ASP.NET Core W
 - Pay with cards or directly through accounts
 - Connect multiple banks together through the CentralApi
 
-## Getting Started  To get started with InstantPay, follow these steps:  
+## Getting Started  
+
+To get started with InstantPay, follow these steps:  
 
 1. Clone the repository to your local machine.
 2. Open the solution file in Visual Studio.
